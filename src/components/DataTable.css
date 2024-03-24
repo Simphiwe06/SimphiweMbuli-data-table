@@ -1,0 +1,67 @@
+.data-table {
+    margin: 20px auto;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .filters {
+    margin-bottom: 10px;
+  }
+  
+  .select {
+    padding: 8px;
+    border: 2px solid #4559b4;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .search-input {
+    padding: 8px;
+    border: 2px solid #4559b4;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 2px solid #797e81;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #ccd5e2;
+    color: #021164;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .pagination-button:disabled {
+    background-color: #ddd;
+    color: #666;
+    cursor: not-allowed;
+  }
+  
+  .pagination-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
